@@ -1,4 +1,4 @@
-# Goscar-FHIR using GORSK - GO(lang) Restful Starter Kit
+# Goscar-FHIR :fire: interface for OSCAR in GO(lang)
 
 ## Work in progress. DO NOT USE!
 

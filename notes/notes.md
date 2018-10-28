@@ -1,4 +1,4 @@
-* https://api.elephantsql.com/
+* https://elephantsql.com/
 
 ```
 go mod init github.com/E-Health/goscar-fhir
