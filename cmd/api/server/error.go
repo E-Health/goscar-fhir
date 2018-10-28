@@ -54,9 +54,10 @@ func (ce *customErrHandler) handler(err error, c echo.Context) {
 			e := err.(*echo.HTTPError)
 			code = e.Code
 			msg = e.Message
-			if e.Internal != nil {
-				msg = fmt.Sprintf("%v, %v", err, e.Internal)
-			}
+			// TODO: This throws an error.
+			//if e.Internal != nil {
+			//	msg = fmt.Sprintf("%v, %v", err, e.Internal)
+			//}
 		case validator.ValidationErrors:
 			var errMsg []string
 			e := err.(validator.ValidationErrors)
